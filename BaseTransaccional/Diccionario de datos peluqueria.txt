@@ -1,0 +1,38 @@
+Nombre			|	Tipo	|Ejemplo	|	Descripción
+IdPais			|INT		|01		|Int identificador de Pais
+NombrePais		|VARCHAR	|Chile		|Nombre del pais
+IdRegion		|INT		|100001		|Int identificador de Region
+NombreRegion		|VARCHAR	|Los Rios	|Nombre de la region
+IdComuna		|INT		|200001		|Int identificador de comuna
+NombreComuna		|VARCHAR	|Valdivia	|Nombre de la comuna
+IdSede			|INT		|300001		|Int identificador de sede
+Dirección		|VARCHAR	|Tromen 480	|Dirección de la sede
+IdCita			|INT		|400001		|Int identificador de cita
+FechaCita		|DATE		|10/07/2024	|Fecha de la cita
+Horario			|TIME		|12:00:00	|Horario de la cita
+IdServicio		|INT		|500001		|Int identificador de servicio
+NombreServicio		|VARCHAR	|Corte Pelo	|Nombre del servicio
+CostoServicio		|FLOAT8		|8000.00	|Precio del servicio
+IdUtensilio		|INT		|600001		|Int identificador de utensilio
+NombreUtensilio		|VARCHAR	|Tijeras	|Nombre del utensilio
+Stock_Ut		|INT		|20		|Stock del utensilio
+IdRol			|INT		|700001		|Int identificador de rol
+NombreRol		|VARCHAR	|Peluquero	|Nombre del rol
+IdEmpleado		|INT		|800001		|Int identificador de empleado
+Nombre_E		|VARCHAR	|Martin		|Nombre del empleado
+Apellido_E		|VARCHAR	|Maza		|Apellido del empleado
+IdCliente		|INT		|900001		|Int identificador de cliente
+Nombre			|VARCHAR	|Martin		|Nombre del cliente
+Apellido		|VARCHAR	|Maza		|Apellido del cliente
+Sexo			|BOOL		|1		|0 es mujer, cualquier otro valor es hombre, el cliente 
+IdBoleta		|INT		|1000001	|Int identificador de boleta
+Monto			|FLOAT8		|15000.500	|Monto de la compra, la boleta
+Fecha			|DATE		|10/07/2024	|Fecha de emisión de la boleta
+Stock_Prod		|INT		|15		|Stock del producto
+IdSueldo		|INT		|1100001	|Int identificador de sueldo
+Monto_S			|FLOAT8		|1300000	|Monto del sueldo
+IdProducto		|INT		|1200001	|Int identificador de producto
+NombreProducto		|VARCHAR	|Shampoo Maza	|Nombre del producto
+Costo			|FLOAT8		|20000		|Costo del producto
+IdProveedor		|INT		|1300001	|Int identificador de proveedor
+NombreProveedor		|VARCHAR	|Pantene	|Nombre del proveedor
